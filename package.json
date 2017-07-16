@@ -1,0 +1,25 @@
+{
+  "name": "scss-startup",
+  "version": "0.0.0",
+  "description": "scss startup project with theming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scss",
+    "startup",
+    "project",
+    "theming"
+  ],
+  "author": "dharmesh pipariya",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^3.1.0",
+    "stylelint": "^7.13.0"
+  }
+}

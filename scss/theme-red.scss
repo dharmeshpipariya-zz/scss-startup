@@ -1,0 +1,14 @@
+@import 'all-theme';
+@import 'theming';
+
+// Define a theme.
+$primary: red;
+$accent:  purple;
+$light-theme-foreground:#333;
+$light-theme-background:white;
+
+$theme: light-theme($primary, $accent);
+
+// Include all theme styles for the components.
+@include scss-theme($theme);
+

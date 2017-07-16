@@ -1,0 +1,7 @@
+@import 'button/button-theme';
+
+
+// Create a theme.
+@mixin scss-theme($theme) {
+  @include button-theme($theme);
+}

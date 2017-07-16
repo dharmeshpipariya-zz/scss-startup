@@ -1,0 +1,9 @@
+button {
+  background: transparent;
+  color: red; }
+  button.primary {
+    background: red;
+    color: #333; }
+  button.accent {
+    background: purple;
+    color: #333; }

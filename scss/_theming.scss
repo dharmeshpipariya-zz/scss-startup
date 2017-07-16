@@ -1,0 +1,12 @@
+$light-theme-foreground:#333;
+$light-theme-background:white;
+
+@function light-theme($primary, $accent) {
+  @return (
+    primary: $primary,
+    accent: $accent,
+    is-dark: false,
+    foreground: $light-theme-foreground,
+    background: $light-theme-background,
+  );
+}
